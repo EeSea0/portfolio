@@ -92,30 +92,18 @@ i.fa-star-half-alt {
  }
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
-  .navbar {
-    max-width: 700px;
-    margin: 0 auto;
-  }
   .contact {
     visibility: visible;
   }
   .photo img {
-    width: 600px;
-    margin: 0 auto;
+    padding: 20px;
   }
   .photo {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #fff;
-  }
-  .box {
-    max-width: 700px;
-    margin: 0 auto;
+    width: 50%;
     background-color: #22bfa0;
   }
-  .footer {
-    width: 700px;
-    margin: 0 auto;
+  .box {
+    width: 50%;
     background-color: #22bfa0;
   }
   .social {
@@ -123,12 +111,14 @@ i.fa-star-half-alt {
   }
   h1 {
     font-size: 40px;
+    padding: 20px;
   }
   h2 {
     font-size: 22px;
   }
   p {
     font-size: 16px;
+    padding: 20px;
   }
 }
 
